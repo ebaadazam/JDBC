@@ -19,7 +19,7 @@ Statement: Used for simple SQL statements without parameters.<br>
 
 <b>SQLException:</b> This class handles any errors that occur in the database access process.<br>
 
-<h4>How JDBC Works</h4>
+<h4><u>How JDBC Works</u></h4>
 Load the JDBC Driver: Before connecting to a database, the JDBC driver must be loaded. This can be done dynamically by calling Class.forName() with the driver's class name.<br>
 
 Establish a Connection: Use DriverManager.getConnection() to establish a connection to the database. This requires a database URL, which varies by database, and possibly a username and password.<br>
