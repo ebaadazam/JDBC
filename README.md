@@ -3,12 +3,12 @@ JDBC (Java Database Connectivity) is an API (Application Programming Interface) 
 <h4>Key Components of JDBC</h4>
 <b>DriverManager:</b> This class manages a list of database drivers. It matches connection requests from Java applications with the appropriate database drivers using communication subprotocols.<br>
 
-<b>Driver:</b> JDBC drivers are database-specific implementations provided by database vendors or third-party providers to ensure that Java applications can communicate with the database. There are four types of JDBC drivers:<br>
+<b>Driver:</b> JDBC drivers are database-specific implementations provided by database vendors or third-party providers to ensure that Java applications can communicate with the database. There are four types of JDBC drivers:
 
 Type 1: JDBC-ODBC Bridge Driver<br>
 Type 2: Native-API Driver<br>
 Type 3: Network Protocol Driver<br>
-Type 4: Thin Driver (Pure Java Driver)<br>
+Type 4: Thin Driver (Pure Java Driver)<br><br>
 <b>Connection:</b> This interface provides a connection with a specific database. It includes methods for managing transactions (e.g., commit and rollback) and creating statements.<br>
 
 <b>Statement:</b> This interface is used for executing static SQL statements and returning their results. There are three types of statements in JDBC:<br>
