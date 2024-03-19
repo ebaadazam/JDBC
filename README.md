@@ -11,7 +11,7 @@ Type 3: Network Protocol Driver<br>
 Type 4: Thin Driver (Pure Java Driver)<br><br>
 <b>Connection:</b> This interface provides a connection with a specific database. It includes methods for managing transactions (e.g., commit and rollback) and creating statements.<br>
 
-<b>Statement:</b> This interface is used for executing static SQL statements and returning their results. There are three types of statements in JDBC:<br>
+<b>Statement:</b> This interface is used for executing static SQL statements and returning their results. There are three types of statements in JDBC:
 
 Statement: Used for simple SQL statements without parameters.<br>
 <b>PreparedStatement:</b> Extends Statement, used for precompiled SQL statements. It can accept input parameters, making it more efficient and secure against SQL injection.<br>
