@@ -12,7 +12,6 @@ Type 4: Thin Driver (Pure Java Driver)<br><br>
 <b>Connection:</b> This interface provides a connection with a specific database. It includes methods for managing transactions (e.g., commit and rollback) and creating statements.<br>
 
 <b>Statement:</b> This interface is used for executing static SQL statements and returning their results. There are three types of statements in JDBC:
-
 Statement: Used for simple SQL statements without parameters.<br>
 <b>PreparedStatement:</b> Extends Statement, used for precompiled SQL statements. It can accept input parameters, making it more efficient and secure against SQL injection.<br>
 <b>CallableStatement:</b> Used to execute stored procedures in the database.<br>
@@ -20,7 +19,7 @@ Statement: Used for simple SQL statements without parameters.<br>
 
 <b>SQLException:</b> This class handles any errors that occur in the database access process.<br>
 
-<h4>How JDBC Works</h4><br>
+<h4>How JDBC Works</h4>
 Load the JDBC Driver: Before connecting to a database, the JDBC driver must be loaded. This can be done dynamically by calling Class.forName() with the driver's class name.<br>
 
 Establish a Connection: Use DriverManager.getConnection() to establish a connection to the database. This requires a database URL, which varies by database, and possibly a username and password.<br>
