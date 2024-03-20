@@ -1,3 +1,4 @@
+// Deleting a row or record from the database
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
